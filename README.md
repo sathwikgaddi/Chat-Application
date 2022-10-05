@@ -53,24 +53,7 @@ https://www.python.org/downloads/
 - The third field is the SIZE/ACK field, where it has the size of the message. If the size of the message id 0, then the third field will be 'ACK' and the fourth field will be omitted.
 - The fourth field is the message field where it contans the message that has to be delivered.
 
-### Checklist for the features and their status -
 
-| _Feature_ | _Status/Description_ |
-| ------ | ------ |
-| Project compiles and builds without warnings or errors| Complete |
-| The Server Class|Complete|
-|The Server has a frame buffer and reads/writes appropriately | Complete (contains a queue named frame_buffer)|
-|The Server allows multiple connections|Complete|
-|The server learns destinations and does not forward packets to any port except the one required|Complete (Checks the condition while both sending and receiving)|
-|Address Table|Complete(prints this table when a new client connection is made)
-|Node Class|Complete|
-|Frame Format|Complete|
-|Nodes Instantiate, and open connection to the server|Complete|
-|Nodes open their input files and send data to the server|Complete|
-|Nodes open their output files and save data that they received|Complete|
-
-### A List of Known Bugs -
-- When a user enters a destination ID that is not active, the program does not show any error.
 
 
 
